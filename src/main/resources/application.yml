@@ -1,0 +1,14 @@
+
+#配置服务端口号
+server:
+  port: 8001
+#配置数据库连接信息
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    url: jdbc:mysql://192.168.1.106/sell?characterEncoding=utf-8&useSSL=false
+    password: 123456
+  #打印sql语句
+  jpa:
+    show-sql: true
